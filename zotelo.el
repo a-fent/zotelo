@@ -3,11 +3,11 @@
 ;; Filename: zotelo.el
 ;; Author: Spinu Vitalie
 ;; Maintainer: Spinu Vitalie
-;; Copyright (C) 2011-2012, Spinu Vitalie, all rights reserved.
+;; Copyright (C) 2011-2017, Spinu Vitalie, all rights reserved.
 ;; Created: Oct 2 2011
 ;; Version: 1.3.9000
 ;; URL: https://github.com/vitoshka/zotelo
-;; Keywords: zotero, emacs, reftex, bibtex, MozRepl, bibliography manager
+;; Keywords: zotero, emacs, reftex, bibtex, biblatex, bibliography manager
 ;; Package-Requires: ((cl-lib "0.5"))
 ;;
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -110,7 +110,7 @@ secondary one."
 
 (defvar zotelo-check-interval 5
   "Seconds between checks for zotero database changes.
-Note that zotelo uses idle timer. Yeach time emacs is idle for
+Note that zotelo uses idle timer. Each time emacs is idle for
 this number of seconds zotelo checks for an update.")
 
 (defvar zotelo-auto-update-all nil
